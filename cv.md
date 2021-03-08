@@ -103,3 +103,5 @@ btn.onclick = function () {
 **2005 - 2010** Moscowskiy Gosudarstvenniy College Informacionnyh Technologiy (MGKIT)  
    *Specialty* 2203 - Software of Engineering and Automated Systems
 
+## English level
+Intermediate A2. Free reading of Technical Documentation and watching Technical Broadcasts/Videos.
