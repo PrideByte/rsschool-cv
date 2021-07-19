@@ -21,13 +21,15 @@ My "final" target is to learn *Frontend* and *Backend Development*
 and merge **HTML**, **CSS**, **JS** and **WebGL** technologies in amount sufficient to be able to make amazing and creative websites.  
 
 ## Used Tools and Technologies  
-  1. **HTML5**  
-  2. **CSS3**  
-  3. **Sass**  
-  4. **JS**  
-  5. **Gulp**  
-  6. **Visual Studio Code**  
-  7. **Git & GitHub**  
+  1. **HTML5**
+  2. **CSS3**
+  3. **SCSS**
+  4. **JS**
+  5. **Gulp**
+  6. **Visual Studio Code**
+  7. **Git & GitHub**
+  8. **Adobe Photoshop**
+  9. **Figma**
 
 ## Few examples  
 
