@@ -119,6 +119,7 @@ $clr-orange-dark: #8f5613;
 function fizzBuzz(length) {
   if (isNaN(length) || length < 1) {
     console.log("Input is NaN or less than 1!");
+    return;
   }
 
   for (let i = 1; i <= length; i++) {
