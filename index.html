@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>rsschool-cv-html</title>
+  <link rel="stylesheet" href="css/style.min.css" />
+</head>
+
+<body>
+  <div class="main">
+    <header class="main__header">
+      <div class="name">
+        <img class="name__image" src="images/user.jpg" alt="User Image" />
+        <h2 class="name__title">Name</h2>
+        <h1 class="name__text">Stanislav Tikhomirov</h1>
+        <p class="name__subtext">Junior Web-developer</p>
+      </div>
+    </header>
+    <aside class="main__aside">
+      <section class="contacts">
+        <h3 class="contacts__title">Contacts</h3>
+        <ul class="contacts__list">
+          <li class="contacts__list-item">
+            <p>Location <em>Russian Federation, Moscow</em></p>
+          </li>
+          <li class="contacts__list-item">
+            <p>
+              GitHub
+              <em><a href="https://github.com/PrideByte">@PrideByte</a></em>
+            </p>
+          </li>
+          <li class="contacts__list-item">
+            <p>
+              E-mail
+              <em><a href="mailto:alpha5.2@mail.ru">alpha5.2[at]mail.ru</a></em>
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="software">
+        <h3 class="software__title">Used Tools and Technologies</h3>
+        <ol class="software__list">
+          <li class="software__list-item">
+            <img class="software__list-item--image" src="images/html.svg" alt="HTML" />
+            <div class="software__list-item--text">HTML5
+              <p class="software__list-item--meter" data-skill="90%"></p>
+            </div>
+          </li>
+          <li class="software__list-item">
+            <img class="software__list-item--image" src="images/css.svg" alt="CSS" />
+            <div class="software__list-item--text">CSS3
+              <p class="software__list-item--meter" data-skill="80%"></p>
+            </div>
+          </li>
+          <li class="software__list-item">
+            <img class="software__list-item--image" src="images/sass.svg" alt="SCSS" />
+            <div class="software__list-item--text">SCSS
+              <p class="software__list-item--meter" data-skill="80%"></p>
+            </div>
+          </li>
+          <li class="software__list-item">
+            <img class="software__list-item--image" src="images/js.svg" alt="JS" />
+            <div class="software__list-item--text">JS
+              <p class="software__list-item--meter" data-skill="50"></p>
+            </div>
+          </li>
+          <li class="software__list-item">
+            <img class="software__list-item--image" src="images/gulp.svg" alt="Gulp" />
+            <div class="software__list-item--text">Gulp
+              <p class="software__list-item--meter" data-skill="60%"></p>
+            </div>
+          </li>
+          <li class="software__list-item">
+            <img class="software__list-item--image" src="images/vscode.svg" alt="VS Code" />
+            <div class="software__list-item--text">Visual Studio Code
+              <p class="software__list-item--meter" data-skill="80%"></p>
+            </div>
+          </li>
+          <li class="software__list-item">
+            <img class="software__list-item--image" src="images/git.svg" alt="Git & Github" />
+            <div class="software__list-item--text">Git & GitHub
+              <p class="software__list-item--meter" data-skill="50%"></p>
+            </div>
+          </li>
+          <li class="software__list-item">
+            <img class="software__list-item--image" src="images/ps.svg" alt="Adobe Photoshop" />
+            <div class="software__list-item--text">Adobe Photoshop
+              <p class="software__list-item--meter" data-skill="50%"></p>
+            </div>
+          </li>
+          <li class="software__list-item">
+            <img class="software__list-item--image" src="images/figma.svg" alt="Figma" />
+            <div class="software__list-item--text">Figma
+              <p class="software__list-item--meter" data-skill="70%"></p>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section class="englvl">
+        <h3 class="englvl__title">English level</h3>
+        <p class="englvl__text">
+          <strong>Intermediate A2.</strong> Free reading of Technical
+          Documentation and watching Technical Broadcasts/Videos.
+        </p>
+      </section>
+    </aside>
+    <main class="main__body">
+      <section class="about">
+        <h3 class="about__title">About</h3>
+        <p class="about__text">
+          Junior Web-developer with few month of experience. I like to learn
+          web technologies, because every time when i make something with my
+          own hands makes me feel like a **God** that creating a new world.
+        </p>
+        <p class="about__text">
+          I'm trying to stick to this <em>helpfull</em> and <em>usefull</em>
+          <a href="https://github.com/kamranahmedse/developer-roadmap">Roadmap</a>, but sometimes i can be distracted to
+          study new interesting
+          technologies like <strong>SVG-animations (SMIL)</strong>,
+          <strong>CSS-animations</strong>, <strong>Canvas</strong> or usefull
+          dev tools like <strong>Gulp</strong> etc.
+        </p>
+        <p class="about__text">
+          My "final" target is to learn <em>Frontend</em> and
+          <em>Backend Development</em> and merge <strong>HTML</strong>,
+          <strong>CSS</strong>, <strong>JS</strong> and
+          <strong>WebGL</strong> technologies in amount sufficient to be able
+          to make amazing and creative websites.
+        </p>
+      </section>
+
+      <section class="examples">
+        <h3 class="examples__title">Few examples</h3>
+
+        <h4 class="examples__subtitle">Sass</h4>
+        <pre class="examples__code">
+//******Variables******
+$base: 4px;
+
+$size-1000: 1045px;
+
+...
+
+$clr-orange-main: #cd6326;
+$clr-orange-light: #e39128;
+$clr-orange-dark: #8f5613;
+
+...
+
+//******Fonts******
+@font-face {
+  font-family: "Icomoon";
+  src: url("../fonts/icomoon.eot?cmych7");
+  src: url("../fonts/icomoon.eot?cmych7#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon.ttf?cmych7") format("truetype"),
+    url("../fonts/icomoon.woff?cmych7") format("woff"),
+    url("../fonts/icomoon.svg?cmych7#icomoon") format("svg");
+  font-display: swap;
+}
+
+@mixin Icomoon {
+  font-family: "Icomoon", sans-serif;
+}
+
+...
+
+//******Fonts - Fluid Typography******
+:root {
+  --fsz-xxsmall: 16px;
+
+  ...
+
+  --fsz-multiplier: 0.6;
+}
+
+@mixin fsz-xxsmall {
+  font-size: var(--fsz-xxsmall);
+
+  @media screen and (max-width: $size-1000) {
+    font-size: clamp(
+      calc(var(--fsz-xxsmall) * var(--fsz-multiplier)),
+      calc((var(--fsz-xxsmall) * var(--fsz-multiplier)) + 1vw),
+      var(--fsz-xxsmall)
+    );
+  }
+}
+
+...
+
+.dashed {
+  &__title {
+    @include fsz-large;
+  }
+
+  &__text {
+    position: relative;
+    @include fsz-xsmall;
+    font-weight: $fw-light;
+    padding-bottom: $base * 4;
+    margin-bottom: $base * 10.5;
+
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: $base * 12.5;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      border-top: $base solid $clr-gray-800;
+    }
+  }
+}
+
+...
+        </pre>
+
+        <h4 class="examples__subtitle">JS</h4>
+        <pre class="examples__code">
+function fizzBuzz(length) {
+  if (isNaN(length) || length &lt; 1) {
+    console.log("Input is NaN or less than 1!");
+    return;
+  }
+
+  for (let i = 1; i &lt;= length; i++) {
+    console.log((((i % 3 === 0) ? "Fizz" : "") + ((i % 5 == 0) ? "Buzz" : "")) || i);
+  }
+}
+
+fizzBuzz(30);
+        </pre>
+      </section>
+
+      <section class="education">
+        <h3 class="education__title">Education</h3>
+        <p class="education__text">
+          <strong>2005 - 2010</strong> Moscowskiy Gosudarstvenniy College
+          Informacionnyh Technologiy (MGKIT)
+        </p>
+        <p class="education__text">
+          <em>Specialty:</em> 2203 - Software of Engineering and Automated
+          Systems
+        </p>
+      </section>
+    </main>
+    <footer class="main__footer">
+      <p>PrideByte &copy; <time datetime="2021">2021</time></p>
+      <p>
+        <a href="https://github.com/PrideByte">
+          <img class="github-link" src="images/github.svg" alt="Github link" />
+          @PrideByte
+        </a>
+      </p>
+      <p>
+        <a href="https://rs.school/js/">
+          <img src="images/rs_school_js.svg" alt="RSSchool" />
+        </a>
+      </p>
+    </footer>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
