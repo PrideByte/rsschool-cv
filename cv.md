@@ -7,6 +7,8 @@
     *Russian Federation, Moscow*  
   * GitHub  
     *@PrideByte*  
+  * E-mail
+    alpha5.2@mail.ru
   * Discord  
     *Grandosss#0882*  
 
@@ -26,95 +28,16 @@ and merge **HTML**, **CSS**, **JS** and **WebGL** technologies in amount suffici
   3. **SCSS**
   4. **JS**
   5. **Gulp**
+  5. **Webpack**
+  5. **Wordpress**
   6. **Visual Studio Code**
   7. **Git & GitHub**
   8. **Adobe Photoshop**
   9. **Figma**
 
-## Few examples  
+## Code examples 
 
-  *Sass*
-```
-//******Variables******
-$base: 4px;
-
-$size-1000: 1045px;
-
-...
-
-$clr-orange-main: #cd6326;
-$clr-orange-light: #e39128;
-$clr-orange-dark: #8f5613;
-
-...
-
-//******Fonts******
-@font-face {
-  font-family: "Icomoon";
-  src: url("../fonts/icomoon.eot?cmych7");
-  src: url("../fonts/icomoon.eot?cmych7#iefix") format("embedded-opentype"),
-    url("../fonts/icomoon.ttf?cmych7") format("truetype"),
-    url("../fonts/icomoon.woff?cmych7") format("woff"),
-    url("../fonts/icomoon.svg?cmych7#icomoon") format("svg");
-  font-display: swap;
-}
-
-@mixin Icomoon {
-  font-family: "Icomoon", sans-serif;
-}
-
-...
-
-//******Fonts - Fluid Typography******
-:root {
-  --fsz-xxsmall: 16px;
-
-  ...
-
-  --fsz-multiplier: 0.6;
-}
-
-@mixin fsz-xxsmall {
-  font-size: var(--fsz-xxsmall);
-
-  @media screen and (max-width: $size-1000) {
-    font-size: clamp(
-      calc(var(--fsz-xxsmall) * var(--fsz-multiplier)),
-      calc((var(--fsz-xxsmall) * var(--fsz-multiplier)) + 1vw),
-      var(--fsz-xxsmall)
-    );
-  }
-}
-
-...
-
-.dashed {
-  &__title {
-    @include fsz-large;
-  }
-
-  &__text {
-    position: relative;
-    @include fsz-xsmall;
-    font-weight: $fw-light;
-    padding-bottom: $base * 4;
-    margin-bottom: $base * 10.5;
-
-    &::after {
-      content: "";
-      display: block;
-      position: absolute;
-      width: $base * 12.5;
-      bottom: 0;
-      left: 50%;
-      transform: translateX(-50%);
-      border-top: $base solid $clr-gray-800;
-    }
-  }
-}
-```
-
-  *JS*
+  *[FizzBuzz](https://www.codewars.com/kata/5300901726d12b80e8000498) task from Codewars:*
 ```
 function fizzBuzz(length) {
   if (isNaN(length) || length < 1) {
@@ -130,9 +53,50 @@ function fizzBuzz(length) {
 fizzBuzz(30);
 ```
 
+  *[Complementary DNA](https://www.codewars.com/kata/554e4a2f232cdd87d9000038) task from Codewars:*
+```
+function DNAStrand(dna){
+  let dictionary = {
+    'A': 'T',
+    'T': 'A',
+    'C': 'G',
+    'G': 'C'
+  }
+  
+  let result = '';
+  
+  for (let i = 0; i < dna.length; i++) {
+    result += dictionary[dna[i]];
+  }
+  
+  return result;
+}
+```
+
+## Completed projects (or not)
+**Business Layout**
+[Link](https://pridebyte.github.io/projects/business-layout/)
+Simple landing page layout. Aside from making the website layout, was added a feature that highlights menu options as the page is scrolled, and smoothly moving the page to the chosen menu option.
+
+Work with scroll, debounce, css-animations.
+
+**Dragon curve**
+[Link](https://pridebyte.github.io/projects/l-system/)
+Interesting project that draw [Dragon curve](https://en.wikipedia.org/wiki/Dragon_curve) represented as [L-system](https://ru.wikipedia.org/wiki/L-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0): at the beginning it has a dictionary and some rules of how the letters in dictionary will be changed every iteration.
+
+Every symbol in dictionary is a rule of what to do on canvas: to turn pen in some direction or to draw the line.
+
+I don't know if it's right way to put asynchronous function inside cycle. I'm not skilled enought to evaluate if it's right or wrong, but it works.
+
+Work with simple geometry, canvas, asynchronous functions.
+
 ## Education  
 **2005 - 2010** Moscowskiy Gosudarstvenniy College Informacionnyh Technologiy (MGKIT)  
    *Specialty* 2203 - Software of Engineering and Automated Systems
 
-## English level
+## Language skills
+**English**
 Intermediate A2. Free reading of Technical Documentation and watching Technical Broadcasts/Videos.
+
+**Russian**
+Native language.
