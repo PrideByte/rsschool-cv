@@ -6,222 +6,174 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>rsschool-cv-html</title>
-  <link rel="stylesheet" href="css/style.min.css" />
+  <link rel="stylesheet" href="./css/prism.css" />
+  <link rel="stylesheet" href="./css/style.min.css" />
+  <script src="./js/prism.min.js" defer></script>
 </head>
 
 <body>
   <div class="main">
     <header class="main__header">
       <div class="name">
-        <img class="name__image" src="images/user.jpg" alt="User Image" />
+        <img class="name__image" src="./images/user.jpg" alt="User Image" />
         <h2 class="name__title">Name</h2>
         <h1 class="name__text">Stanislav Tikhomirov</h1>
         <p class="name__subtext">Junior Web-developer</p>
       </div>
+      <div class="menu__translate"></div>
     </header>
     <aside class="main__aside">
       <section class="contacts">
         <h3 class="contacts__title">Contacts</h3>
         <ul class="contacts__list">
-          <li class="contacts__list-item">
-            <p>Location <em>Russian Federation, Moscow</em></p>
+          <li class="contacts__item">
+            <div class="contacts__item-header">
+              <img class="contacts__item-img" src="./images/location.svg" alt="Location">
+              <h4 class="contacts__item-title">Location</h4>
+            </div>
+            <p class="contacts__item-link">Russian Federation, Moscow</p>
           </li>
-          <li class="contacts__list-item">
-            <p>
-              GitHub
-              <em><a href="https://github.com/PrideByte">@PrideByte</a></em>
-            </p>
+          <li class="contacts__item">
+            <div class="contacts__item-header">
+              <img class="contacts__item-img" src="./images/github.svg" alt="Github">
+              <h4 class="contacts__item-title">Github</h4>
+            </div>
+            <p class="contacts__item-link"><a href="https://github.com/PrideByte" target="_blank">@PrideByte</a></p>
           </li>
-          <li class="contacts__list-item">
-            <p>
-              E-mail
-              <em><a href="mailto:alpha5.2@mail.ru">alpha5.2[at]mail.ru</a></em>
-            </p>
+          <li class="contacts__item">
+            <div class="contacts__item-header">
+              <img class="contacts__item-img" src="./images/mail.svg" alt="E-mail">
+              <h4 class="contacts__item-title">E-mail</h4>
+            </div>
+            <p class="contacts__item-link"><a href="mailto:alpha5.2@mail.ru">alpha5.2[at]mail.ru</a></p>
+          </li>
+          <li class="contacts__item">
+            <div class="contacts__item-header">
+              <img class="contacts__item-img" src="./images/discord-svgrepo-com.svg" alt="discord">
+              <h4 class="contacts__item-title">Discord</h4>
+            </div>
+            <p class="contacts__item-link">Grandosss#0882</p>
           </li>
         </ul>
       </section>
 
       <section class="software">
-        <h3 class="software__title">Used Tools and Technologies</h3>
-        <ol class="software__list">
+        <h3 class="software__title">Tools and Technologies</h3>
+        <ul class="software__list">
           <li class="software__list-item">
             <img class="software__list-item--image" src="images/html.svg" alt="HTML" />
-            <div class="software__list-item--text">HTML5
+            <div class="software__list-item--info">
+              <p class="software__list-item--text">HTML5</p>
               <p class="software__list-item--meter" data-skill="90%"></p>
             </div>
           </li>
           <li class="software__list-item">
             <img class="software__list-item--image" src="images/css.svg" alt="CSS" />
-            <div class="software__list-item--text">CSS3
-              <p class="software__list-item--meter" data-skill="80%"></p>
+            <div class="software__list-item--info">
+              <p class="software__list-item--text">CSS3</p>
+              <p class="software__list-item--meter" data-skill="90%"></p>
             </div>
           </li>
           <li class="software__list-item">
             <img class="software__list-item--image" src="images/sass.svg" alt="SCSS" />
-            <div class="software__list-item--text">SCSS
-              <p class="software__list-item--meter" data-skill="80%"></p>
+            <div class="software__list-item--info">
+              <p class="software__list-item--text">SCSS</p>
+              <p class="software__list-item--meter" data-skill="90%"></p>
             </div>
           </li>
           <li class="software__list-item">
             <img class="software__list-item--image" src="images/js.svg" alt="JS" />
-            <div class="software__list-item--text">JS
-              <p class="software__list-item--meter" data-skill="50"></p>
+            <div class="software__list-item--info">
+              <p class="software__list-item--text">JS</p>
+              <p class="software__list-item--meter" data-skill="65"></p>
             </div>
           </li>
           <li class="software__list-item">
             <img class="software__list-item--image" src="images/gulp.svg" alt="Gulp" />
-            <div class="software__list-item--text">Gulp
+            <div class="software__list-item--info">
+              <p class="software__list-item--text">Gulp</p>
+              <p class="software__list-item--meter" data-skill="60%"></p>
+            </div>
+          </li>
+          <li class="software__list-item">
+            <img class="software__list-item--image" src="images/webpack.svg" alt="Webpack" />
+            <div class="software__list-item--info">
+              <p class="software__list-item--text">Webpack</p>
+              <p class="software__list-item--meter" data-skill="50%"></p>
+            </div>
+          </li>
+          <li class="software__list-item">
+            <img class="software__list-item--image" src="images/wordpress.svg" alt="Wordpress" />
+            <div class="software__list-item--info">
+              <p class="software__list-item--text">Wordpress</p>
               <p class="software__list-item--meter" data-skill="60%"></p>
             </div>
           </li>
           <li class="software__list-item">
             <img class="software__list-item--image" src="images/vscode.svg" alt="VS Code" />
-            <div class="software__list-item--text">Visual Studio Code
+            <div class="software__list-item--info">
+              <p class="software__list-item--text">Visual Studio Code</p>
               <p class="software__list-item--meter" data-skill="80%"></p>
             </div>
           </li>
           <li class="software__list-item">
             <img class="software__list-item--image" src="images/git.svg" alt="Git & Github" />
-            <div class="software__list-item--text">Git & GitHub
+            <div class="software__list-item--info">
+              <p class="software__list-item--text">Git & GitHub</p>
               <p class="software__list-item--meter" data-skill="50%"></p>
             </div>
           </li>
           <li class="software__list-item">
             <img class="software__list-item--image" src="images/ps.svg" alt="Adobe Photoshop" />
-            <div class="software__list-item--text">Adobe Photoshop
+            <div class="software__list-item--info">
+              <p class="software__list-item--text">Adobe Photoshop</p>
               <p class="software__list-item--meter" data-skill="50%"></p>
             </div>
           </li>
           <li class="software__list-item">
             <img class="software__list-item--image" src="images/figma.svg" alt="Figma" />
-            <div class="software__list-item--text">Figma
+            <div class="software__list-item--info">
+              <p class="software__list-item--text">Figma</p>
               <p class="software__list-item--meter" data-skill="70%"></p>
             </div>
           </li>
-        </ol>
+        </ul>
       </section>
 
-      <section class="englvl">
-        <h3 class="englvl__title">English level</h3>
-        <p class="englvl__text">
-          <strong>Intermediate A2.</strong> Free reading of Technical
-          Documentation and watching Technical Broadcasts/Videos.
-        </p>
+      <section class="languages">
+        <h3 class="languages__title">Language skills</h3>
+        <ul class="languages__list">
+          <li class="languages__item">
+            <div class="languages__item-header">
+              <img class="languages__item-img" src="./images/big-ben.png" alt="Big Ben icon">
+              <h4 class="languages__item-title">English</h4>
+            </div>
+            <p class="languages__item-text"><strong>Intermediate A2.</strong> Free reading of Technical Documentation and watching Technical Broadcasts/Videos.</p>
+          </li>
+          <li class="languages__item">
+            <div class="languages__item-header">
+              <img class="languages__item-img" src="./images/kremlin.png" alt="Kremlin icon">
+              <h4 class="languages__item-title">Russian</h4>
+            </div>
+            <p class="languages__item-text">Native language.</p>
+          </li>
+        </ul>
+
       </section>
     </aside>
     <main class="main__body">
       <section class="about">
         <h3 class="about__title">About</h3>
-        <p class="about__text">
-          Junior Web-developer with few month of experience. I like to learn
-          web technologies, because every time when i make something with my
-          own hands makes me feel like a **God** that creating a new world.
-        </p>
-        <p class="about__text">
-          I'm trying to stick to this <em>helpfull</em> and <em>usefull</em>
-          <a href="https://github.com/kamranahmedse/developer-roadmap">Roadmap</a>, but sometimes i can be distracted to
-          study new interesting
-          technologies like <strong>SVG-animations (SMIL)</strong>,
-          <strong>CSS-animations</strong>, <strong>Canvas</strong> or usefull
-          dev tools like <strong>Gulp</strong> etc.
-        </p>
-        <p class="about__text">
-          My "final" target is to learn <em>Frontend</em> and
-          <em>Backend Development</em> and merge <strong>HTML</strong>,
-          <strong>CSS</strong>, <strong>JS</strong> and
-          <strong>WebGL</strong> technologies in amount sufficient to be able
-          to make amazing and creative websites.
-        </p>
+        <p class="about__text">Junior Web-developer with some experience. I like to learn web technologies, because every time when i make something with my own hands makes me feel like a God that creating a new world.</p>
+        <p class="about__text">I'm trying to stick to this <em>helpfull</em> and <em>usefull</em> <a href="https://github.com/kamranahmedse/developer-roadmap" target="_blank">Roadmap</a>, but sometimes i can be distracted to study new interesting technologies like <strong>SVG-animations</strong>, <strong>CSS-animations</strong>, <strong>Canvas</strong> or usefull dev tools like <strong>Gulp</strong> etc.</p>
+        <p class="about__text">My target is to learn <em>Frontend</em> and <em>Backend Development</em> and merge <strong>HTML</strong>, <strong>CSS</strong>, <strong>JS</strong> and <strong>WebGL</strong> technologies in amount sufficient to be able to make amazing and creative websites.</p>
       </section>
 
       <section class="examples">
-        <h3 class="examples__title">Few examples</h3>
-
-        <h4 class="examples__subtitle">Sass</h4>
-        <pre class="examples__code">
-//******Variables******
-$base: 4px;
-
-$size-1000: 1045px;
-
-...
-
-$clr-orange-main: #cd6326;
-$clr-orange-light: #e39128;
-$clr-orange-dark: #8f5613;
-
-...
-
-//******Fonts******
-@font-face {
-  font-family: "Icomoon";
-  src: url("../fonts/icomoon.eot?cmych7");
-  src: url("../fonts/icomoon.eot?cmych7#iefix") format("embedded-opentype"),
-    url("../fonts/icomoon.ttf?cmych7") format("truetype"),
-    url("../fonts/icomoon.woff?cmych7") format("woff"),
-    url("../fonts/icomoon.svg?cmych7#icomoon") format("svg");
-  font-display: swap;
-}
-
-@mixin Icomoon {
-  font-family: "Icomoon", sans-serif;
-}
-
-...
-
-//******Fonts - Fluid Typography******
-:root {
-  --fsz-xxsmall: 16px;
-
-  ...
-
-  --fsz-multiplier: 0.6;
-}
-
-@mixin fsz-xxsmall {
-  font-size: var(--fsz-xxsmall);
-
-  @media screen and (max-width: $size-1000) {
-    font-size: clamp(
-      calc(var(--fsz-xxsmall) * var(--fsz-multiplier)),
-      calc((var(--fsz-xxsmall) * var(--fsz-multiplier)) + 1vw),
-      var(--fsz-xxsmall)
-    );
-  }
-}
-
-...
-
-.dashed {
-  &__title {
-    @include fsz-large;
-  }
-
-  &__text {
-    position: relative;
-    @include fsz-xsmall;
-    font-weight: $fw-light;
-    padding-bottom: $base * 4;
-    margin-bottom: $base * 10.5;
-
-    &::after {
-      content: "";
-      display: block;
-      position: absolute;
-      width: $base * 12.5;
-      bottom: 0;
-      left: 50%;
-      transform: translateX(-50%);
-      border-top: $base solid $clr-gray-800;
-    }
-  }
-}
-
-...
-        </pre>
-
-        <h4 class="examples__subtitle">JS</h4>
-        <pre class="examples__code">
+        <h3 class="examples__title">Code examples</h3>
+        <sup class="examples__subtext"><a href="https://prismjs.com/">prism.js</a> library is used to highlight the code.</sup>
+        <p class="examples__text"><a href="https://www.codewars.com/kata/5300901726d12b80e8000498" target="_blank">FizzBuzz</a> task from Codewars:</p>
+        <pre class="examples__code"><code class="language-js">
 function fizzBuzz(length) {
   if (isNaN(length) || length &lt; 1) {
     console.log("Input is NaN or less than 1!");
@@ -234,38 +186,100 @@ function fizzBuzz(length) {
 }
 
 fizzBuzz(30);
-        </pre>
+        </code></pre>
+        <p class="examples__text"><a href="https://www.codewars.com/kata/554e4a2f232cdd87d9000038" target="_blank">Complementary DNA</a> task from Codewars:</p>
+        <pre class="examples__code"><code class="language-js">
+function DNAStrand(dna){
+  let dictionary = {
+    'A': 'T',
+    'T': 'A',
+    'C': 'G',
+    'G': 'C'
+  }
+  
+  let result = '';
+  
+  for (let i = 0; i &lt; dna.length; i++) {
+    result += dictionary[dna[i]];
+  }
+  
+  return result;
+}
+        </code></pre>
+      </section>
+
+      <section class="projects">
+        <h3 class="projects__title">Completed projects (or not)</h3>
+        <ul class="projects__list">
+          <li class="projects__item">
+            <div class="projects__item-logo">
+              <a class="projects__item-link" href="https://pridebyte.github.io/projects/business-layout/" target="_blank">
+                <img class="projects__item-img" src="./images/business.jpg" alt="Business layout preview">
+              </a>
+              <p class="projects__item-view">View...</p>
+            </div>
+            <div class="projects__item-desc">
+              <p class="projects__item-name">Business Layout</p>
+              <p class="projects__item-text">Simple landing page layout. Aside from making the website layout, was added a feature that highlights menu options as the page is scrolled, and smoothly moving the page to the chosen menu option.</p>
+              <p class="projects__item-text">Work with scroll, debounce, css-animations.</p>
+              <p class="projects__item-title">Technologies stack used:</p>
+              <ul class="projects__tech-list">
+                <li class="projects__tech-item"><img class="projects__tech-img" src="./images/html.svg" alt="HTML5"></li>
+                <li class="projects__tech-item"><img class="projects__tech-img" src="./images/sass.svg" alt="SCSS"></li>
+                <li class="projects__tech-item"><img class="projects__tech-img" src="./images/js.svg" alt="Java Script"></li>
+                <li class="projects__tech-item"><img class="projects__tech-img" src="./images/gulp.svg" alt="GULP"></li>
+                <li class="projects__tech-item"><img class="projects__tech-img" src="./images/ps.svg" alt="Photoshop"></li>
+              </ul>
+            </div>
+          </li>
+          <li class="projects__item">
+            <div class="projects__item-logo">
+              <a class="projects__item-link" href="https://pridebyte.github.io/projects/l-system/" target="_blank">
+                <img class="projects__item-img" src="./images/dragon_curve.png" alt="Business layout preview">
+              </a>
+              <p class="projects__item-view">View...</p>
+            </div>
+            <div class="projects__item-desc">
+              <p class="projects__item-name">Dragon curve</p>
+              <p class="projects__item-text">Interesting project that draw <a href="https://en.wikipedia.org/wiki/Dragon_curve" target="_blank">Dragon curve</a> represented as <a href="https://ru.wikipedia.org/wiki/L-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0" target="_blank">L-system</a>: at the beginning it has a dictionary and some rules of how the letters in dictionary will be changed every iteration.</p>
+              <p class="projects__item-text">Every symbol in dictionary is a rule of what to do on canvas: to turn pen in some direction or to draw the line.</p>
+              <p class="projects__item-text">I don't know if it's right way to put asynchronous function inside cycle. I'm not skilled enought to evaluate if it's right or wrong, but it works.</p>
+              <p class="projects__item-text">Work with simple geometry, canvas, asynchronous functions.</p>
+              <p class="projects__item-title">Technologies stack used:</p>
+              <ul class="projects__tech-list">
+                <li class="projects__tech-item"><img class="projects__tech-img" src="./images/html.svg" alt="HTML5"></li>
+                <li class="projects__tech-item"><img class="projects__tech-img" src="./images/css.svg" alt="CSS"></li>
+                <li class="projects__tech-item"><img class="projects__tech-img" src="./images/js.svg" alt="Java Script"></li>
+                <li class="projects__tech-item"><img class="projects__tech-img" src="./images/canvas.png" alt="Canvas"></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
       </section>
 
       <section class="education">
         <h3 class="education__title">Education</h3>
-        <p class="education__text">
-          <strong>2005 - 2010</strong> Moscowskiy Gosudarstvenniy College
-          Informacionnyh Technologiy (MGKIT)
-        </p>
-        <p class="education__text">
-          <em>Specialty:</em> 2203 - Software of Engineering and Automated
-          Systems
-        </p>
+        <p class="education__text"><strong>2005 - 2010</strong> Moscowskiy Gosudarstvenniy College Informacionnyh Technologiy (MGKIT)</p>
+        <p class="education__text"><em>Specialty:</em> 2203 - Software of Engineering and Automated Systems</p>
       </section>
     </main>
     <footer class="main__footer">
-      <p>PrideByte &copy; <time datetime="2021">2021</time></p>
+      <p><strong>PrideByte</strong> &copy; <time datetime="2022">2022</time></p>
       <p>
-        <a href="https://github.com/PrideByte">
+        <a href="https://github.com/PrideByte" target="_blank">
           <img class="github-link" src="images/github.svg" alt="Github link" />
           @PrideByte
         </a>
       </p>
       <p>
-        <a href="https://rs.school/js/">
+        <a href="https://rs.school/js/" target="_blank">
           <img src="images/rs_school_js.svg" alt="RSSchool" />
         </a>
       </p>
     </footer>
   </div>
 
-  <script src="js/main.js"></script>
+  <script src="js/main.min.js" type="module"></script>
 </body>
 
 </html>
