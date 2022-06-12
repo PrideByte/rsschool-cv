@@ -7,7 +7,7 @@
     *Russian Federation, Moscow*  
   * GitHub  
     *@PrideByte*  
-  * E-mail
+  * E-mail  
     alpha5.2@mail.ru
   * Discord  
     *Grandosss#0882*  
@@ -74,14 +74,14 @@ function DNAStrand(dna){
 ```
 
 ## Completed projects (or not)
-**Business Layout**
-[Link](https://pridebyte.github.io/projects/business-layout/)
+**Business Layout**  
+[Link](https://pridebyte.github.io/projects/business-layout/)  
 Simple landing page layout. Aside from making the website layout, was added a feature that highlights menu options as the page is scrolled, and smoothly moving the page to the chosen menu option.
 
 Work with scroll, debounce, css-animations.
 
-**Dragon curve**
-[Link](https://pridebyte.github.io/projects/l-system/)
+**Dragon curve**  
+[Link](https://pridebyte.github.io/projects/l-system/)  
 Interesting project that draw [Dragon curve](https://en.wikipedia.org/wiki/Dragon_curve) represented as [L-system](https://ru.wikipedia.org/wiki/L-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0): at the beginning it has a dictionary and some rules of how the letters in dictionary will be changed every iteration.
 
 Every symbol in dictionary is a rule of what to do on canvas: to turn pen in some direction or to draw the line.
